@@ -9,7 +9,7 @@ int main()
 	scanf("%d", &distance);
 	printf("nhap gia tri don: ");
 	scanf("%d", &order_valua);
-	if(distance<0)
+	if(distance<1||order_valua<0 )
 	{
 		printf("invalid");
 		
