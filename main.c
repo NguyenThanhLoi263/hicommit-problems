@@ -8,7 +8,7 @@ int main()
 	printf("nhap khoan cach: ");
 	scanf("%d", &distance);
 	printf("nhap gia tri don: ");
-	scanf("%d", order_valua);
+	scanf("%d", &order_valua);
 	if(distance<0)
 	{
 		printf("invalid");
