@@ -5,6 +5,10 @@ int main() {
   scanf("%d", &t);
   if(t<25)
   {
+    printf("LANH");
+  }
+  else if(15<t && t<25)
+  {
     printf("")
   }
   return 0;
