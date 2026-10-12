@@ -9,6 +9,10 @@ int main() {
   }
   else if(15<t && t<25)
   {
+    printf("MAT")
+  }
+  else if(25<t && t<35)
+  {
     printf("")
   }
   return 0;
