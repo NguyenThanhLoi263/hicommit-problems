@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
   int t;
   scanf("%d", &t);
@@ -17,7 +16,7 @@ int main() {
   }
   else if(t>35)
   {
-    printf("RAT NONG");
+    printf("RAT_NONG");
   }
   return 0;
 }
