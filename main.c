@@ -5,7 +5,7 @@ int main() {
   int b;
   int c;
   int max=0;
-  scanf("%d%d%d", &a, %b, %c);
+  scanf("%d%d%d", &a, &b, &c);
   if(a<b && b>c)
   {
     max=b;
