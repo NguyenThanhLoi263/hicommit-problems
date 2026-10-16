@@ -21,12 +21,12 @@ int main()
     }
     else if(distance>=1 && distance<=5)
     {
-      phigiaohang=order_value*15000;
+      phigiaohang=15000;
       printf("%d", phigiaohang);
     }
     else if(distance>=6 && distance<=15)
     {
-      phigiaohang=order_value*25000;
+      phigiaohang=25000;
       printf("%d", phigiaohang);
     }
     else if(distance>15)
