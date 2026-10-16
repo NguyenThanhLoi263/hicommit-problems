@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 int main() {
   int n;
   printf("nhap so: ");
   scanf("%d", &n);
-  if(n==o)
+  if(n==0)
     printf("CHAN");
   else if(n%2==0)
   {
