@@ -2,7 +2,7 @@
 int main() {
   int t;
   scanf("%d", &t);
-  if(t<25)
+  if(t<15)
   {
     printf("LANH");
   }
