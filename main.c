@@ -1,38 +1,39 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-	int distance;
-	int order_value;
-    
-	printf("nhap khoan cach: ");
-	scanf("%d", &distance);
-	printf("nhap gia tri don: ");
-	scanf("%d", &order_value);
-	if(distance<1||order_value<0 )
-	{
-		printf("INVALID");
-		
-	}
-    else if(order_value>=50000 && distance<15 )
+    int distance;
+    int order_value;
+
+    // Đọc đồng thời 2 giá trị trên cùng 1 dòng
+    if (scanf("%d %d", &distance, &order_value) != 2)
     {
-     
-      printf("0");
+        return 0;
     }
-    else if(distance>=1 && distance<=5)
+
+    // 1. Khoảng cách <= 0 hoặc giá trị đơn hàng < 0
+    if (distance <= 0 || order_value < 0)
     {
-      
-      printf("15000");
+        printf("INVALID");
     }
-    else if(distance>=6 && distance<=15)
+    // 2. Giá trị đơn hàng >= 500.000đ và khoảng cách <= 15km
+    else if (order_value >= 500000 && distance <= 15)
     {
-      
-      printf("25000");
+        printf("0");
     }
-    else if(distance>15)
+    // 3. Các trường hợp còn lại
+    else if (distance >= 1 && distance <= 5)
     {
-      
-      printf("40000");
+        printf("15000");
     }
+    else if (distance >= 6 && distance <= 15)
+    {
+        printf("25000");
+    }
+    else if (distance > 15)
+    {
+        printf("40000");
+    }
+
     return 0;
 }
