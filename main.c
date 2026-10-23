@@ -15,7 +15,7 @@ int main() {
   {
     printf("B");
   }
-  else if(a>=6.50 && a<=6.90)
+  else if(a>=6.50 && a<=6.99)
   {
     printf("C+");
   }
