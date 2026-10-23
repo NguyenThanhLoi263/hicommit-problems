@@ -2,7 +2,7 @@
 
 int main() {
   float a;
-  sanf("%f", &a);
+  scanf("%f", &a);
   if(a>=9.0 && a<=10)
   {
     printf("A");
