@@ -36,6 +36,10 @@ int main() {
   else{
     tong+=k*2536;
     k=0;
-    }    
+    }
+   if (k>0){
+        tong+=k*2727;
+    }
+    printf("%lld", tong);
   return 0;
 }
