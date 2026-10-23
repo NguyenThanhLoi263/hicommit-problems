@@ -19,11 +19,11 @@ int main() {
   {
     printf("C+");
   }
-  else if(a>=5.50 && a<=6.40)
+  else if(a>=5.50 && a<=6.49)
   {
     printf("C");
   }
-  else if(a>=5.00 && a<=5.40)
+  else if(a>=5.00 && a<=5.49)
   {
     printf("D+");
   }
