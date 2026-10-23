@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  float w, h;
-  scanf("%f%f", &w, &h); 
-  float BMI;
+  double w, h;
+  scanf("%lf%lf", &w, &h); 
+  double BMI;
   BMI=w/((h/100)*(h/100));
   if(BMI<=18.49999)
   {
