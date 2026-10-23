@@ -15,12 +15,12 @@ int main() {
     k=0;
   }
   if (k>50) {
-    total+=50*1734;
+    tong+=50*1734;
     k-=50;
     } 
   else {
-    total += k*1734;
-    k=0;
+    tong+=k*1734;
+    k=0
     }
   
   return 0;
