@@ -4,7 +4,7 @@ int main() {
   long long k;
   scanf("%lld", &k);
   long long tong=0;
-  if(k<50)
+  if(k>50)
   {
     tong=tong+50*1678;
     k-=50;    
