@@ -29,5 +29,19 @@ int main() {
   else {
     rl = 0;
     }
+  if (hl == 3 && rl == 3) {
+    printf("HOC_BONG_XUAT_SAC");
+    }
+  else if ((hl == 2 && (rl == 2 || rl == 3)) || (hl == 3 && rl == 2)) {
+    printf("HOC_BONG_GIOI");
+    }
+  else if ((hl == 1 && (rl == 1 || rl == 2 || rl == 3)) ||
+    (hl == 2 && rl == 1) ||
+    (hl == 3 && rl == 1)) {
+    printf("HOC_BONG_KHA");
+    }
+  else {
+    printf("KHONG_DAT");
+    }
   return 0;
 }
