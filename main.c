@@ -7,8 +7,7 @@ int main() {
   if(k<50)
   {
     tong=tong+50*1678;
-    k-=50;
-    
+    k-=50;    
   }
   else{
     tong=tong+k*1678;
@@ -31,12 +30,12 @@ int main() {
     k=0;
   }
   if(k>100){
-  tong+=100*2536;
-  k-=100;
+    tong+=100*2536;
+    k-=100;
     } 
   else{
-  tong+=k*2536;
-  k=0;
+    tong+=k*2536;
+    k=0;
     }    
   return 0;
 }
