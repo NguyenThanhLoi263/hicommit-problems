@@ -20,8 +20,16 @@ int main() {
     } 
   else {
     tong+=k*1734;
-    k=0
+    k=0;
     }
+  if (k > 100) {
+    tong+=100*2014;
+    k-=100;
+    } 
+  else {
+    tong+=k*2014;
+    k=0;
+  }
   
   return 0;
 }
