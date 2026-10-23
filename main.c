@@ -10,9 +10,9 @@ int main() {
     k-=50;
     
   }
-  eslse{
+  else{
     tong= tong+ k*1678;
-    k=0
+    k=0;
   }  
   
   return 0;
