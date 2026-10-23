@@ -27,7 +27,7 @@ int main() {
   {
     printf("D+");
   }
-  else if(a>=4.0- && a<=4.99)
+  else if(a>=4.00 && a<=4.99)
   {
     printf("D");
   }
