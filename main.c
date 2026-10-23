@@ -6,8 +6,14 @@ int main() {
   long long tong=0;
   if(k<50)
   {
-    tong=tong+50*1678
+    tong=tong+50*1678;
+    k-=50;
     
   }
+  eslse{
+    tong= tong+ k*1678;
+    k=0
+  }  
+  
   return 0;
 }
