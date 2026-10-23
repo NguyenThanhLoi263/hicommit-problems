@@ -3,7 +3,7 @@
 int main() {
   double w, h;
   scanf("%lf%lf", &w, &h); 
-  double BMI;
+  float BMI;
   BMI=w/((h/100)*(h/100));
   if(BMI<=18.49999)
   {
@@ -17,7 +17,7 @@ int main() {
   {
     printf("OVERWEIGHT");
   }
-  else if(BMI>=30.000000000000000)
+  else if(BMI>=30.000000000)
   {
     printf("OBESE");
   }
