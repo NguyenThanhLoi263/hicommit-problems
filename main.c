@@ -33,7 +33,7 @@ int main()
 			printf("VALID");
 		
 		}
-		else if((m==4||m==6||m==9||m==11)&&d==30))
+		else if((m==4||m==6||m==9||m==11)&&d==30)
 		{
 			printf("VALID");
 		
