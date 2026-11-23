@@ -27,7 +27,7 @@ int main() {
       printf("PASS");
     }
     else{
-      printf("fa");
+      printf("FAIL");
     }
   }
   return 0;
