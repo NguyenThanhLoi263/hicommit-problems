@@ -1,8 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int d,m,y;
-	scanf("%d\%d\%d", &d,&m,&y );
+	int d,y;
+  do
+	{
+		scanf("%d",&m);
+	}while(m<=1&&m>=30);
+	
+	scanf("%d%d", &d,&y );
 	if(y%400==0||(y%4==0 && y%100!=0))
 	{
 		if((m==1||m==3||m==5||m==7||m==8||m==10||m==12)&&d>=1&&d<=31)
